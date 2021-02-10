@@ -1,0 +1,117 @@
+/********general*/
+
+body
+{
+	font: 13px/1.5 Tahoma, Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+
+
+h2
+{
+	font-size: 0.8em;
+}
+
+
+
+ul
+{
+	list-style: none;
+}
+
+li
+{
+	margin-left: 8%
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset
+{
+	margin-bottom: 20px;
+}
+
+
+
+/*****main area *********/
+.main {
+	margin-left: 15%;
+	font-size: 28px; 
+	padding: 0px 10px;
+  }
+  
+  .main-box {
+	min-height: 20em;
+    background: #131418;
+    margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+	color:white;
+  }
+
+  .main-box h2 {
+    color: #131418;
+    background: #ff9eae;
+	padding: 10px 12px;
+	font-size: 0.7em;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.box-content{
+    font-size: 0.7em;
+    padding: 1%;
+}
+
+
+/*******tabel list*****/
+
+
+.tabel-list{
+  width: 100%;
+  font-size: 0.8em;
+}
+
+
+
+input[type=text], select, textarea {
+	width: 100%;
+    padding: 3%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+  
+  }
+
+  input[type=submit] {
+	background-color: #ff9eae;
+    color: #131418;
+    padding: 3%;
+    border: none;
+    border-radius: 4px;
+  
+  }
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+
+
+
+textarea{
+	width: 80%;
+    height: 200px;
+}

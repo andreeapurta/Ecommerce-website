@@ -1,0 +1,220 @@
+body {
+  font-size: 1em;
+  background-color: #131418 !important;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Open Sans";
+}
+
+.title-content {
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+
+/********Index******/
+
+.text-heading {
+  text-align: center;
+}
+
+.text-heading-bg {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  background-color: #ff9eae;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/******product cards*****/
+
+.card-product .img-product {
+  border-radius: 3px 3px 0 0;
+  height: 220px;
+  text-align: center;
+}
+.card-product .img-product img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.card-product .info-text-product {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+.card-product .bottom-info {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.desc {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.bottom-info a {
+  background-color: #ff9eae;
+  float: right;
+}
+
+/********************product view*************/
+.content-white {
+  padding: 20px 0;
+  background: #fff;
+}
+
+.product-view-desc h2 {
+  padding: 1%;
+  background: #ff9eae;
+  border: 1px solid #ebe8e8;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+.product-view-desc p {
+  font-size: 0.8em;
+  padding: 0.3em 0;
+  color: #969696;
+  line-height: 1.6em;
+  font-family: verdana, arial, helvetica, helve, sans-serif;
+}
+
+.product-view-info span {
+  color: #ff9eae;
+  font-size: 1.3em;
+}
+
+/**********Cart**********/
+
+.cartpage {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cartpage {
+  border: 1px solid #131418;
+  overflow: hidden;
+  padding: 2%;
+}
+
+/* al meu */
+table.table-cart img {
+  height: 10%;
+  width: 100%;
+}
+
+.table-cart {
+  margin-bottom: 2%;
+}
+
+.table-cart td {
+  vertical-align: middle;
+}
+
+.table-cart {
+  border: 1px solid #fff;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.table-cart th {
+  background: #131418;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 5px 8px;
+  text-align: center;
+}
+.table-cart td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table.table-cart input[type="number"] {
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+table.table-cart input[type="submit"] {
+  background: #131418;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1em;
+  padding: 1px 5px;
+}
+table.table-cart a {
+  color: #fe5800;
+  font-weight: bold;
+  text-decoration: none;
+}
+.payment {
+  width: 500px;
+  min-height: 200px;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  padding: 50px;
+}
+.payment h2 {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.go-back a {
+  width: 150px;
+  margin: 5px auto 0;
+  padding: 7px 0;
+  text-align: center;
+  display: block;
+  background: #000;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.2em;
+}
+
+/*************profile*************/
+.table-profile {
+  width: 550px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.table-profile tr td {
+  text-align: justify;
+}
+
+/**************Order**************/
+
+.table-amount {
+    float: right;
+    text-align: left;
+    width: 50%;
+    border: 2px solid black;
+    margin-right: 14px;
+    margin-top: 12px;
+}
+
+.table-amount tr td {
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+.ordernow a {
+    width: 150px;
+    margin: 5px auto 0;
+    padding: 1% 0;
+    text-align: center;
+    display: block;
+    background: black;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-bottom: 40px;}
+
+
+
+.image-single-prod{
+  width:100%;
+}

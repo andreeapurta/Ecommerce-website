@@ -1,0 +1,49 @@
+.navbar-default{
+    
+    background-color: #131418;
+
+}
+
+
+.admin-area{
+	font-size: 1.2em;
+}
+
+
+.sidenav {
+	padding-top: 2%;
+	width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    background-color: #131418;
+
+}
+  
+  .sidenav a {
+	
+	font-size: 1.2em;
+	color: #818181;
+	
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  
+
+
+  
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+  @media(max-width: 991px){
+    .navbar-default{
+        margin-left:0%;
+        margin-right:0%;
+    }
+}
+
